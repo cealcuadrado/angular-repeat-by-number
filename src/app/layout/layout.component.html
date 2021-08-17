@@ -1,1 +1,13 @@
-<p>layout works!</p>
+<div class="row">
+  <div class="col-12 col-lg-4 mb-2" *ngFor="let number of numbers; let i = index">
+    <div class="card">
+      <div class="card-header">
+        Header of Card {{i+1}}
+      </div>
+      <div class="card-body">
+        Body of Card {{i}}
+      </div>
+    </div>
+  </div>
+</div>
+
